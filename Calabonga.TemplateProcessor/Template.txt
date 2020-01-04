@@ -1,0 +1,25 @@
+﻿Сущность [ENTITY_NAME]
+
+Для того чтобы реализовать CRUD для сущности [ENTITY_NAME] требуется создать и проделать следующее:
+
+[1h] Класс [ENTITY_NAME].
+
+[2h] Конфигурация [ENTITY_NAME]ModelConfiguration для EntityFramework Core.
+
+[1h] Конфигурациия сопоставлений [ENTITY_NAME]MapperConfiguration для Automapper.
+
+[1h] Миграцию базы данных [ENTITY_NAME]EntityCreated для EntityFramework Code.
+
+[2h] Применить миграцию для существующей базы данных.
+
+[2h] Модели предстваления ViewModels для CRUD операций: [ENTITY_NAME]CreateViewModel, [ENTITY_NAME]UpdateViewModel, [ENTITY_NAME]ViewModel.
+
+[2h] [ENTITY_NAME]Manager
+
+[1h] [ENTITY_NAME]Validator
+
+[1h] [ENTITY_NAME]ViewModelFactory
+
+[2h] Создать контроллер [CONTROLLER_NAME] для управления сущностью [ENTITY_NAME].
+
+[4h] Протестировать вновь созданную функциональность. 

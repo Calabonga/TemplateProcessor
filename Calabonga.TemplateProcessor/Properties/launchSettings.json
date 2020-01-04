@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Calabonga.TemplateProcessor": {
+      "commandName": "Project",
+      "commandLineArgs": "Document Documents"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calabonga.TemplateProcessor.ConsoleDemo", "Calabonga.TemplateProcessor\Calabonga.TemplateProcessor.ConsoleDemo.csproj", "{0A665448-F587-461B-99C1-530334429999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calabonga.TemplateProcessor.Engine", "Calabonga.TemplateProcessor.Engine\Calabonga.TemplateProcessor.Engine.csproj", "{20D3BE79-FEAB-4FF4-A478-94C6001B6A28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calabonga.TemplateProcessor.Wpf", "Calabonga.TemplateProcessor.Wpf\Calabonga.TemplateProcessor.Wpf.csproj", "{36ED9834-4B08-45B0-9BCA-9BD72C162E0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A665448-F587-461B-99C1-530334429999}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A665448-F587-461B-99C1-530334429999}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A665448-F587-461B-99C1-530334429999}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A665448-F587-461B-99C1-530334429999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D3BE79-FEAB-4FF4-A478-94C6001B6A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D3BE79-FEAB-4FF4-A478-94C6001B6A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D3BE79-FEAB-4FF4-A478-94C6001B6A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D3BE79-FEAB-4FF4-A478-94C6001B6A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36ED9834-4B08-45B0-9BCA-9BD72C162E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36ED9834-4B08-45B0-9BCA-9BD72C162E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36ED9834-4B08-45B0-9BCA-9BD72C162E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36ED9834-4B08-45B0-9BCA-9BD72C162E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF7C1C8B-EF2F-49B9-8E36-1DF0D54CEAD8}
+	EndGlobalSection
+EndGlobal
