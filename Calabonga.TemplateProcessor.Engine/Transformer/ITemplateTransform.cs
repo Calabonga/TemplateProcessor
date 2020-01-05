@@ -1,6 +1,6 @@
 ﻿namespace Calabonga.TemplateProcessor.Engine.Transformer
 {
-    public interface ITemplateTransform
+    public interface ITemplateTransform:ITemplateError
     {
         void Save();
     }

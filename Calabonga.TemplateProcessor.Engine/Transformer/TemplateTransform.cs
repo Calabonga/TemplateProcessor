@@ -5,5 +5,10 @@
         public void Save()
         {
         }
+
+        public void ThrowError()
+        {
+            
+        }
     }
 }

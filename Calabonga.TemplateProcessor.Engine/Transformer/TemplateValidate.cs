@@ -6,5 +6,10 @@
         {
             return new TemplateTransform();
         }
+
+        public void ThrowError()
+        {
+            
+        }
     }
 }

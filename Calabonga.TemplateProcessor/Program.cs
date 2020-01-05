@@ -18,6 +18,13 @@ namespace Calabonga.TemplateProcessor.ConsoleDemo
                 .Transform()
                 .Save();
 
+            transformer
+                .LoadFromString()
+                .Validate()
+                .Transform()
+                .Save();
+
+
             NormalImplementation(args);
         }
 

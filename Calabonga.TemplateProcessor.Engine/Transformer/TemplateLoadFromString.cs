@@ -6,5 +6,10 @@
         {
             return new TemplateValidate();
         }
+
+        public void ThrowError()
+        {
+            
+        }
     }
 }

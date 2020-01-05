@@ -1,7 +1,8 @@
 ﻿namespace Calabonga.TemplateProcessor.Engine.Transformer
 {
-    public interface ITemplateValidate
+    public interface ITemplateValidate:ITemplateError
     {
         ITemplateTransform Transform();
+
     }
 }

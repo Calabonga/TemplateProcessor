@@ -8,5 +8,10 @@ namespace Calabonga.TemplateProcessor.Engine.Transformer
         {
             return new TemplateValidate();
         }
+
+        public void ThrowError()
+        {
+            
+        }
     }
 }
