@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Calabonga.TemplateProcessor.Engine\Calabonga.TemplateProcessor.Engine.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="Template.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

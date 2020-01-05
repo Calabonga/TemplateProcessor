@@ -1,12 +1,34 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using Calabonga.TemplateProcessor.Engine.Transformer;
 
 namespace Calabonga.TemplateProcessor.ConsoleDemo
 {
     class Program
     {
         static void Main(string[] args)
+        {
+
+            var transformer = new TemplateTransformer();
+
+            transformer
+                .LoadFromFile()
+                .Validate()
+                .Transform()
+                .Save();
+
+            transformer
+                .LoadFromString()
+                .Validate()
+                .Transform()
+                .Save();
+
+
+            NormalImplementation(args);
+        }
+
+        private static void NormalImplementation(string[] args)
         {
             // Calabonga: Key configuration file (2019-12-28 03:42 Program)
             const string entityNameKey = "[ENTITY_NAME]";
